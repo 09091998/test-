@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+ int num = 2,i,res;
+    for ( i=1; i <= 10; i++)
+        { res = num*i;
+     cout << num<<"*"<< i << "="<< res<<"\n";
+        }
+ return 0;
+}
