@@ -1,0 +1,152 @@
+*{
+
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  
+  .container1{
+    background-color:rgb(6, 6, 12) ;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+     padding-top: 20px;
+  }
+
+  
+  .taxtfield{
+    
+    background-color: rgb(22, 56, 66);
+    font-size: 15px;
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 30px 30px;
+    flex-wrap: wrap;
+    color: #ccc;
+    
+    
+   
+    
+  }
+  
+ 
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+  }
+ 
+  
+  #acc{
+    display:block;
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    
+  }
+  
+  
+ .Claimbutton{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border:none;
+    margin: 1rem 10rem;    
+    background-color: blue;
+    height: 2rem;
+ }
+ 
+ 
+  
+  .Dbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border:none;
+    margin: 1rem 10rem;
+   background-color: transparent;
+    background-color: blue;
+    height: 2rem;
+
+
+   }
+
+   .btn{
+     background-color: transparent;
+     border: none;
+     color: white;
+   }
+  
+
+  .swapIcon {
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 25px ;
+  }
+
+  
+  .connect-btn {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 20px;
+    border:none;
+  }
+  
+  
+
+  
+.newbox{
+display: flex;
+background-color: rgb(22, 9, 9);
+border-radius: 30px;
+align-items: center;
+justify-content: space-between;
+padding: 5px 20px;
+height: 50px;
+}
+
+
+
+     .newbox2{
+      display: flex;
+      background-color: rgb(22, 9, 9);
+      border-radius: 30px;
+      align-items: center;
+      padding: 5px 20px;
+    
+ 
+      height: 50px;
+     } 
+     .newbox3{
+      display: flex;
+      background-color: rgb(22, 9, 9);
+      border-radius: 30px;
+      padding: 5px 20px;
+     
+    
+      height: 50px;
+     }
+     .alltext label{
+      font-size: large;
+      justify-content: space-evenly;
+      padding-left: 20px;
+      padding: 20px;
+     }
+     .token{
+       border-radius: 15px;
+       width: 5rem;
+       height: 2rem;
+       background-color: rgb(44, 37, 37);
+       color: white;
+
+     }
