@@ -1,0 +1,142 @@
+*{
+
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+  }
+  .logo{
+font-style: arial ; 
+color: aliceblue;
+font-size: 25px;
+margin-bottom: 15px;
+margin-left:10px;
+
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-template-rows: 0.3fr 3fr;
+    /* background-image: url(nft2.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin: 20px 0px; */
+    /* grid-gap:20px; */
+}
+.mainSection{
+    background-image: url(nft2.jpg);
+background-repeat: no-repeat;
+background-size: auto;
+/* border: 2px solid red; */
+background-size: cover;
+height: 100vh;
+/* margin: 10px 0px; */
+}
+
+.header{
+    color: aliceblue;
+    font-size: 15px;
+    font-style: oblique;
+    margin: 150px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.imagepart{
+    height:100vh;
+    font-size: 10px;
+    
+    align-items: flex-end;
+}
+.x1{
+    font-size: 20px;
+    color: white;
+margin-bottom:15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    /* width:5rem; */
+    /* height:2rem; */
+    border-radius: 15px;
+    align-items: center;
+    font-size: 15px;
+    color:black;
+background-color: white;
+
+}
+/* .btn1{
+    display: flex;
+    justify-content: center;
+    width:10rem;
+    height:3rem;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 15px;
+    color:black;
+background-color: rgb(64, 34, 238);
+  */
+
+.card{
+    margin: 30px 40px;
+
+}
+.btn{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.button{
+    display: flex;
+}
+.card-text{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/* .nav{
+   align-items: center; 
+   display: flex;
+   margin-left: 20px;
+   color: aliceblue;
+} */
+/* .dropdown{
+    color: aliceblue;
+    font-size: 20px;
+align-items: center;
+margin-bottom: 15px;
+}
+.dropdown-content{
+    border-radius: 20px;
+    color:black;
+    
+} */
+.link{
+    border-radius: 10px;
+}
+/* .Navbar--main .Navbar--left {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding-right: 16px;
+} */
+/* .btn{
+    border: none;
+} */
+.nav-item{
+    /* justify-content: space-evenly; */
+}
+/* .container-fluid{
+    justify-content: space-evenly !important;
+} */
+.navoption{
+    /* justify-content: space-evenly;
+ */
+
+}
+.card-body{
+    background-color:rgb(225, 235, 235) !important ;
+    font-style: italic;
+}
